@@ -1,3 +1,4 @@
+import { compose } from "redux";
 import { applyMiddleware, combineReducers, createStore } from "redux";
 import { createLogger } from "redux-logger/src";
 import thunk from "redux-thunk";
@@ -11,7 +12,13 @@ const logger = createLogger({
 
 const reducers = combineReducers({
   authorization,
-  contacts
+  contacts,
 });
 
-export const store = createStore(reducers, applyMiddleware(thunk, logger));
+export const store = createStore(
+  reducers,
+  compose(
+    applyMiddleware(thunk, logger),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  )
+);

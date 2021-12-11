@@ -8,16 +8,22 @@
   ],
   "contacts": [
     {
-      "fullName": "434343",
-      "telephone": "434",
-      "email": "ddd",
-      "id": 1
+      "id": 3,
+      "fullName": "Ден Абрамов",
+      "telephone": "77700000",
+      "email": "abramov@gmail.com"
     },
     {
-      "fullName": "dedd",
-      "telephone": "3232",
-      "email": "33232323",
-      "id": 2
+      "id": 4,
+      "fullName": "Павел Дуров",
+      "telephone": "77799999999",
+      "email": "durov@mail.ru"
+    },
+    {
+      "id": 5,
+      "fullName": "Марк Цукерберг",
+      "telephone": "9999999999",
+      "email": "mark@gmail.com"
     }
   ]
 }

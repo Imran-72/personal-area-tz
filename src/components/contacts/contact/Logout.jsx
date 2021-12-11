@@ -12,9 +12,7 @@ function Logout() {
   };
   return (
     <div className="logout">
-      <button onClick={logout}>
-        Выйти
-      </button>
+      <button onClick={logout}>Выйти</button>
     </div>
   );
 }
