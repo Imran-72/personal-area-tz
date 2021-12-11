@@ -11,7 +11,7 @@ function App() {
   const authorizing = useSelector((state) => state.authorization.authorizing);
 
   return (
-    <>
+    <BrowserRouter>
       <Route path="/contacts" component={Contacts} />
       <Route path="/authorization" component={Authorization} />
       <Route path="/addContactButton" component={AddContactButton} />
@@ -25,7 +25,7 @@ function App() {
           <Redirect to="/authorization" />
         </>
       )}
-      </>
+    </BrowserRouter>
   );
 }
 
