@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 import { useDispatch } from "react-redux";
 import { toggleModal } from "../../../redux/reducers/contacts";
 import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
-import AddIcon from '@material-ui/icons/Add';
+import AddIcon from "@material-ui/icons/Add";
 
 function AddContactButton() {
   const dispatch = useDispatch();

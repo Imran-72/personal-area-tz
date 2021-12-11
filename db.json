@@ -6,5 +6,18 @@
       "password": "admin"
     }
   ],
-  "contacts": []
+  "contacts": [
+    {
+      "fullName": "434343",
+      "telephone": "434",
+      "email": "ddd",
+      "id": 1
+    },
+    {
+      "fullName": "dedd",
+      "telephone": "3232",
+      "email": "33232323",
+      "id": 2
+    }
+  ]
 }

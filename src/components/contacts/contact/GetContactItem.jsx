@@ -47,7 +47,7 @@ function GetContactItem() {
   };
 
   return (
-    <div className="add-contact-window">
+    <div className="add-contact-window update-window">
       <form className={classes.root} noValidate autoComplete="off">
         <div>
           <TextField
