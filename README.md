@@ -15,7 +15,7 @@
 
 1. Скачайте приложение с GitHub:
 
-### `git clone https://github.com/Musovvir/app-contacts.git`
+### `git clone https://github.com/Imran-72/personal-area-tz.git`
 
 2. Введите в терминале команду:
 
