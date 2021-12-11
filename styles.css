@@ -1,0 +1,138 @@
+/** Authorization **/
+
+.error-text {
+  text-align: left;
+  font-size: 0.8em;
+  color: red;
+}
+
+/** Contacts **/
+
+.cont {
+  width: 700px;
+  margin: auto;
+  position: relative;
+}
+
+.change-win {
+
+}
+
+.list-contacts {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.items-contacts {
+  margin: auto;
+}
+
+.contact {
+  display: flex;
+  margin: 10px 10px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  box-shadow: 0 0 5px 0 lightgray;
+}
+
+.fullName {
+  width: 170px;
+  margin-top: 3px;
+}
+
+.telephone {
+  width: 120px;
+  margin: auto;
+}
+
+.email {
+  width: 190px;
+  margin-top: 3px;
+  align-items: center;
+}
+
+.MuiSvgIcon-fontSizeSmall {
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+
+.contact Button {
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 0.5em;
+}
+
+/** AddContactButton **/
+
+.add-contact {
+  text-align: center;
+  margin-right: 10px;
+}
+
+/** AddContactWindow **/
+
+.add-contact-window {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 lightgray;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  z-index: 99;
+}
+
+.btns {
+  width: 300px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btns .MuiButton-containedPrimary {
+  margin: 20px 5px 0 5px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/** Delete **/
+
+.delete {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.delete:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+/** SearchContact **/
+
+.searchContact {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+/** Logout **/
+
+.logout {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}

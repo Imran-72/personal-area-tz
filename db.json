@@ -1,0 +1,23 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "login": "admin",
+      "password": "admin"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 4,
+      "fullName": "Наруто Узумаки",
+      "telephone": "4375456734855",
+      "email": "sasuke@gmail.com"
+    },
+    {
+      "fullName": "Том Харди",
+      "telephone": "242400000000000",
+      "email": "hardiofficial@gmail.com",
+      "id": 5
+    }
+  ]
+}
