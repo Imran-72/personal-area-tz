@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Contact from "./Contact/Contact";
-import AddContactButton from "./Contact/AddContactButton";
-import GetContactItem from "./Contact/GetContactItem";
-import SearchContact from "./Contact/SearchContact";
+import Contact from "./contact/Contact";
+import AddContactButton from "./contact/AddContactButton";
+import GetContactItem from "./contact/GetContactItem";
+import SearchContact from "./contact/SearchContact";
 import { loadContacts } from "../../redux/reducers/contacts";
-import Logout from "./Contact/Logout";
+import Logout from "./contact/Logout";
 
 function Contacts() {
   const dispatch = useDispatch();
