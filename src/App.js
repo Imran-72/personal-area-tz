@@ -1,5 +1,5 @@
 import Authorization from "./components/Authorization";
-import Contacts from "./components/Contacts";
+import Contacts from "./components/contacts";
 import { useSelector } from "react-redux";
 import { BrowserRouter, Route, Redirect } from "react-router-dom";
 import AddContactButton from "./components/contacts/contact/AddContactButton";
