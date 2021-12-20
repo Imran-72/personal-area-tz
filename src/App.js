@@ -2,10 +2,10 @@ import Authorization from "./components/Authorization";
 import Contacts from "./components/Contacts";
 import { useSelector } from "react-redux";
 import { BrowserRouter, Route, Redirect } from "react-router-dom";
-import AddContactButton from "./components/Contacts/Contact/AddContactButton";
-import AddContactWindow from "./components/Contacts/Contact/AddContactWindow";
-import GetContactItem from "./components/Contacts/Contact/GetContactItem";
-import SearchContact from "./components/Contacts/Contact/SearchContact";
+import AddContactButton from "./components/contacts/contact/AddContactButton";
+import AddContactWindow from "./components/contacts/contact/AddContactWindow";
+import GetContactItem from "./components/contacts/contact/GetContactItem";
+import SearchContact from "./components/contacts/contact/SearchContact";
 
 function App() {
   const authorizing = useSelector((state) => state.authorization.authorizing);
